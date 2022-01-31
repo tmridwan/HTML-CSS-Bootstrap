@@ -1,0 +1,196 @@
+body{
+    color: black;    
+    margin-left: 8% !important;
+    margin-right: 8% !important;
+}
+
+img{
+    width: 100%;
+}
+
+.text-royalB{
+    color: rgb(25, 61, 158) !important;
+}
+
+.bg-royalB{
+    background-color: rgb(25, 61, 158) !important;
+}
+
+.border-royalB{
+    border-color: rgb(25, 61, 158) ;
+}
+
+.text-orange{
+    color: rgb(255, 115, 0);
+}
+
+.justify{
+    justify-content: space-between;
+}
+
+.majh{
+    display: block;
+    margin: 0 auto;
+    float: none;
+}
+
+
+
+
+#top{
+    display: block;
+}
+
+.top{
+    display: flex;
+}
+
+.logo{
+    display: inline-block;
+}
+
+.socialMedia{
+    display: inline-block; 
+    top: 6px;
+    position: relative;
+}
+
+.who{
+    display: inline-block;
+    top: -6px;
+    position: relative;
+}
+
+.who p{
+    display: inline-flex;
+    position: relative;
+    top: -10px;
+}
+
+.who img{
+    width: 50px;
+}
+
+@media (max-width:720px) {
+    .socialMedia{
+        display: none;
+    }
+}
+
+.backR{
+    background-color: rgba(233, 0, 0, 0.137);
+    border-radius: 10px;
+}
+
+
+////////////////////////////////Home
+
+
+.operation{
+    font-size: 70px;
+}
+
+.stayhome p{
+    display: inline-block;
+}
+
+.stayhome i{
+    display: inline-block;
+}
+
+
+
+
+//////////////////////////////counts
+
+
+
+
+#count h1{
+    font-size: 50px;
+}
+
+#count p{
+    font-size: 18px;
+}
+
+
+////////////////////////////////Symptoms
+
+
+
+#symptom::before{
+    position: absolute;
+    content: "";
+    left: 47%;
+    width: 80px;
+    height: 2px;
+    background: #c7c7c7;
+}
+
+
+
+////////////////////////////////measures
+
+
+
+
+#measures .container:nth-child(2) i{
+    font-size: 60px;
+}
+
+
+
+//////////////////////////QNA
+
+#qna input{
+    display: none;
+}
+
+#qna label{
+    cursor: pointer;
+}
+
+.click1w{
+    display: none;
+}
+
+#qna #click1:checked ~ .click1w{
+    display: block;
+}
+
+
+.click2w{
+    display: none;
+}
+
+#qna #click2:checked ~ .click2w{
+    display: block;
+}
+
+
+.click3w{
+    display: none;
+}
+
+#qna #click3:checked ~ .click3w{
+    display: block;
+}
+
+
+.click4w{
+    display: none;
+}
+
+#qna #click4:checked ~ .click4w{
+    display: block;
+}
+
+
+.click5w{
+    display: none;
+}
+
+#qna #click5:checked ~ .click5w{
+    display: block;
+}

@@ -1,0 +1,168 @@
+body {
+  color: black;
+  margin-left: 8% !important;
+  margin-right: 8% !important;
+}
+
+img {
+  width: 100%;
+}
+
+.text-royalB {
+  color: #193d9e !important;
+}
+
+.bg-royalB {
+  background-color: #193d9e !important;
+}
+
+.border-royalB {
+  border-color: #193d9e;
+}
+
+.text-orange {
+  color: #ff7300;
+}
+
+.justify {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.majh {
+  display: block;
+  margin: 0 auto;
+  float: none;
+}
+
+#top {
+  display: block;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.socialMedia {
+  display: inline-block;
+  top: 6px;
+  position: relative;
+}
+
+.who {
+  display: inline-block;
+  top: -6px;
+  position: relative;
+}
+
+.who p {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  top: -10px;
+}
+
+.who img {
+  width: 50px;
+}
+
+@media (max-width: 720px) {
+  .socialMedia {
+    display: none;
+  }
+}
+
+.backR {
+  background-color: rgba(233, 0, 0, 0.137);
+  border-radius: 10px;
+}
+
+.operation {
+  font-size: 70px;
+}
+
+.stayhome p {
+  display: inline-block;
+}
+
+.stayhome i {
+  display: inline-block;
+}
+
+#count h1 {
+  font-size: 50px;
+}
+
+#count p {
+  font-size: 18px;
+}
+
+#symptom::before {
+  position: absolute;
+  content: "";
+  left: 47%;
+  width: 80px;
+  height: 2px;
+  background: #c7c7c7;
+}
+
+#measures .container:nth-child(2) i {
+  font-size: 60px;
+}
+
+#qna input {
+  display: none;
+}
+
+#qna label {
+  cursor: pointer;
+}
+
+.click1w {
+  display: none;
+}
+
+#qna #click1:checked ~ .click1w {
+  display: block;
+}
+
+.click2w {
+  display: none;
+}
+
+#qna #click2:checked ~ .click2w {
+  display: block;
+}
+
+.click3w {
+  display: none;
+}
+
+#qna #click3:checked ~ .click3w {
+  display: block;
+}
+
+.click4w {
+  display: none;
+}
+
+#qna #click4:checked ~ .click4w {
+  display: block;
+}
+
+.click5w {
+  display: none;
+}
+
+#qna #click5:checked ~ .click5w {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
